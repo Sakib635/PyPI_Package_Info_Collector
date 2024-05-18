@@ -1,0 +1,6 @@
+"last_update": "2024-05-01 08:13:27",
+"query": {
+"bytes_billed": 980652392448,
+"bytes_processed": 980651563133,
+"cached": false,
+"estimated_cost": "4.46"
