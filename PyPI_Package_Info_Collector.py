@@ -14,7 +14,7 @@ def fetch_versions(package_name):
     
     data = response.json()
     versions = list(data["releases"].keys())
-    #versions.sort(key=parse, reverse=True)
+    #versions.sort(key=parse, reverse=True) # not required
     return versions
 
 def fetch_package_info(package_name, version=None):
