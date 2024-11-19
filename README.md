@@ -3,7 +3,7 @@ This script fetches information about Python packages from the PyPI repository, 
 
 Here’s a detailed breakdown of what the script does:
 
- Main Features of the Script:
+ ## Main Features of the Script:
 
 1. Fetch Package Versions:
    - For each package, the script fetches a list of all its versions from PyPI.
@@ -21,7 +21,7 @@ Here’s a detailed breakdown of what the script does:
 5. Command-Line Argument Parsing:
    - The script uses the `argparse` module to accept the path to a JSON file containing a list of packages as a command-line argument. This allows the user to specify the input file dynamically.
 
- Script Workflow:
+ ## Script Workflow:
 
 1. Command-Line Argument Parsing:
    - The script starts by parsing the command-line argument to get the path to the input JSON file containing the list of packages.
